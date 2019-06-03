@@ -75,7 +75,7 @@ local function TransformKoda(source)
 			elseif kodaQuantity < 5 then
 				TriggerClientEvent('esx:showNotification', source, _U('nao_tens_mais_laranjas'))
 			else
-				xPlayer.removeInventoryItem('laranja', 5)
+				xPlayer.removeInventoryItem('laranja', 2)
 				xPlayer.addInventoryItem('sumo_de_laranja', 1)
 
 				TransformKoda(source)
